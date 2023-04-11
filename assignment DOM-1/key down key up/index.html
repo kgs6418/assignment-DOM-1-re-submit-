@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onkeyup and onkeydown</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>onkeyup and onkeydown:-</h1>
+    <h2>(1) onkeyup :- <p>This will run the script and take the value at the same time.</p></h2>
+    <h2>(2) onkeydown :- <p>This will first run the script and then it will take the value.</p></h2>
+    
+    <div >
+        
+        <p id="up">onkeyup</p>
+        <input type="text"  onkeyup="alert(this.value)">
+        <p id="down">onkeydown</p>
+        <input type="text" onkeydown="alert(this.value)">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
